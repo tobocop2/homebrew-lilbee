@@ -18,6 +18,19 @@ class LilbeeCuda < Formula
     bin.install binary => "lilbee"
   end
 
+  def caveats
+    <<~EOS
+      lilbee-cuda installs the same `lilbee` binary as the regular `lilbee` formula,
+      built against CUDA instead of Vulkan. If you previously had `lilbee` installed,
+      uninstall it first:
+
+        brew uninstall lilbee
+        brew install tobocop2/lilbee/lilbee-cuda
+
+      Requires an NVIDIA GPU and a matching CUDA driver (run `nvidia-smi` to check).
+    EOS
+  end
+
   test do
     assert_match version.to_s, shell_output("#{bin}/lilbee --version")
   end
