@@ -9,7 +9,7 @@ class LilbeeCuda < Formula
   on_linux do
     on_intel do
       url "https://github.com/tobocop2/lilbee/releases/download/v#{version}/lilbee-linux-x86_64-cu125"
-      sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+      sha256 "71e84f731d25f0d9fba17d4852f301e59407a51fb0a20f07ba3649845760766d"
     end
   end
 
