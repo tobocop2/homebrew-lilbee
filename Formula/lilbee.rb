@@ -28,6 +28,13 @@ class Lilbee < Formula
     system "xattr", "-cr", bin/"lilbee" if OS.mac?
   end
 
+  service do
+    run [opt_bin/"lilbee", "serve", "--host", "127.0.0.1", "--port", "42697"]
+    keep_alive true
+    log_path var/"log/lilbee/serve.log"
+    error_log_path var/"log/lilbee/serve.err.log"
+  end
+
   test do
     assert_match version.to_s, shell_output("#{bin}/lilbee --version")
   end

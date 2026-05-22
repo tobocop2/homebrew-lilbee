@@ -18,6 +18,13 @@ class LilbeeCuda < Formula
     bin.install binary => "lilbee"
   end
 
+  service do
+    run [opt_bin/"lilbee", "serve", "--host", "127.0.0.1", "--port", "42697"]
+    keep_alive true
+    log_path var/"log/lilbee/serve.log"
+    error_log_path var/"log/lilbee/serve.err.log"
+  end
+
   def caveats
     <<~EOS
       lilbee-cuda installs the same `lilbee` binary as the regular `lilbee` formula,
