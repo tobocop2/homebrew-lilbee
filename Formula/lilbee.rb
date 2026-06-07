@@ -1,20 +1,20 @@
 class Lilbee < Formula
   desc "Local search engine and personal encyclopedia for your notes, code, and PDFs"
   homepage "https://github.com/tobocop2/lilbee"
-  version "0.6.66b492"
+  version "0.6.66b493"
   license "Elastic-2.0"
 
   on_macos do
     on_arm do
       url "https://github.com/tobocop2/lilbee/releases/download/v#{version}/lilbee-macos-arm64"
-      sha256 "c66fafc66f7ee6563f7b823ccb67039c7507bb38abc3e15958c013b4bc16266e"
+      sha256 "4d48ca204428d2ec64a10deb42006cc5d5285f41269907453fad9b0caed75b9d"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/tobocop2/lilbee/releases/download/v#{version}/lilbee-linux-x86_64"
-      sha256 "9f961b1d2540dc750e8abade9c8cae5ef02b483ab766b320e0c8bfc2e678b848"
+      sha256 "25956488bfb72b0de6d52f732891162dfd49d0bde085120f2f6ab4d2741cbc0a"
     end
   end
 
