@@ -1,5 +1,5 @@
 class Lilbee < Formula
-  desc "Local search engine and personal encyclopedia for your notes, code, and PDFs"
+  desc "Run local AI models, search your files and code, and crawl the web"
   homepage "https://github.com/tobocop2/lilbee"
   version "0.6.66b498"
   license "Elastic-2.0"
