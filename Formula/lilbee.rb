@@ -1,20 +1,20 @@
 class Lilbee < Formula
   desc "Run local AI models, search your files and code, and crawl the web"
   homepage "https://github.com/tobocop2/lilbee"
-  version "0.6.66b504"
+  version "0.6.66b505"
   license "Elastic-2.0"
 
   on_macos do
     on_arm do
       url "https://github.com/tobocop2/lilbee/releases/download/v#{version}/lilbee-macos-arm64"
-      sha256 "359b7d06c9ff2597ae63d3f581a05b53b05d38a2fdf3e4158c57812dd13db695"
+      sha256 "f7e439904f04c149cec737b8d262f85a64935c996b74651e9536adb9c5e00e83"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/tobocop2/lilbee/releases/download/v#{version}/lilbee-linux-x86_64"
-      sha256 "2b61e262cdcc1418e177422c406ef2bffddaec6daa4d1ab1b3be3445a0d14bc2"
+      sha256 "ad5d43ac5ae7f8c729d7ce527c8e94f2ced4bf4a16ce8672e3b7d408b950ed89"
     end
   end
 
