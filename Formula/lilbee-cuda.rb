@@ -1,5 +1,5 @@
 class LilbeeCuda < Formula
-  desc "Run local AI models, search your files and code, and crawl the web (CUDA build)"
+  desc "Whole local AI stack in one binary: models, cited search, crawler (CUDA build)"
   homepage "https://github.com/tobocop2/lilbee"
   version "0.6.90b420.dev718"
   license "Elastic-2.0"
