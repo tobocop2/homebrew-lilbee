@@ -1,7 +1,7 @@
 class LilbeeCompat < Formula
   desc "Run local AI models, search your files and code, and crawl the web (pre-Haswell CPU build)"
   homepage "https://github.com/tobocop2/lilbee"
-  version "0.6.90b420.dev719"
+  version "0.6.90b420.dev720"
   license "Elastic-2.0"
 
   conflicts_with "tobocop2/lilbee/lilbee", because: "both install the lilbee binary"
@@ -10,7 +10,7 @@ class LilbeeCompat < Formula
   on_linux do
     on_intel do
       url "https://github.com/tobocop2/lilbee/releases/download/v#{version}/lilbee-compat-linux-x86_64"
-      sha256 "801452661ed505eb82049f75a4551498bf5c5a66e1538f2dafa7cbe606669f5e"
+      sha256 "300a2efa808acb333c996d40d346475edb7fdbe81594c541eb414486dfa7c348"
     end
   end
 
