@@ -2,7 +2,7 @@ class Lilbee < Formula
   desc "Whole local AI stack in one binary: models, cited search, crawler"
   homepage "https://github.com/tobocop2/lilbee"
   version "0.6.90b420.dev727"
-  license "Elastic-2.0"
+  license "MIT"
 
   on_macos do
     on_arm do

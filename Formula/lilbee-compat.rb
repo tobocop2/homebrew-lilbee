@@ -2,7 +2,7 @@ class LilbeeCompat < Formula
   desc "Run local AI models, search your files and code, and crawl the web (pre-Haswell CPU build)"
   homepage "https://github.com/tobocop2/lilbee"
   version "0.6.90b420.dev727"
-  license "Elastic-2.0"
+  license "MIT"
 
   conflicts_with "tobocop2/lilbee/lilbee", because: "both install the lilbee binary"
   conflicts_with "tobocop2/lilbee/lilbee-cuda", because: "both install the lilbee binary"

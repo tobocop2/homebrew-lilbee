@@ -2,7 +2,7 @@ class LilbeeCuda < Formula
   desc "Whole local AI stack in one binary: models, cited search, crawler (CUDA build)"
   homepage "https://github.com/tobocop2/lilbee"
   version "0.6.90b420.dev727"
-  license "Elastic-2.0"
+  license "MIT"
 
   conflicts_with "tobocop2/lilbee/lilbee", because: "both install the lilbee binary"
 
