@@ -1,20 +1,20 @@
 class Lilbee < Formula
   desc "Whole local AI stack in one binary: models, cited search, crawler"
   homepage "https://github.com/tobocop2/lilbee"
-  version "0.6.90b420.dev728"
+  version "0.6.90b420.dev729"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/tobocop2/lilbee/releases/download/v#{version}/lilbee-macos-arm64"
-      sha256 "48536d68c2178de092dbac45a16e78f0e1215f9510e9c755cfebd878b75a62b6"
+      sha256 "f4beaad74302a49ed0dbb2a980f774fcd5885b5f0506f3f35eed711ecfdc1893"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/tobocop2/lilbee/releases/download/v#{version}/lilbee-linux-x86_64"
-      sha256 "fde1d1b85ba80a6b8ff57ac48dbe6226d29093977b7cf4f6a195e7803ca1c32b"
+      sha256 "991664839880fae2e241d2a08a60557d55c75ad13a15594f494aa54343d65150"
     end
   end
 
