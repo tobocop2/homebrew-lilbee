@@ -1,7 +1,7 @@
 class LilbeeRocm < Formula
   desc "Whole local AI stack in one executable: models, search, crawler (AMD ROCm)"
   homepage "https://github.com/tobocop2/lilbee"
-  version "0.6.90b421"
+  version "0.6.90b422"
   license "MIT"
 
   conflicts_with "tobocop2/lilbee/lilbee", because: "both install the lilbee binary"
@@ -11,7 +11,7 @@ class LilbeeRocm < Formula
   on_linux do
     on_intel do
       url "https://github.com/tobocop2/lilbee/releases/download/v#{version}/lilbee-linux-x86_64-rocm"
-      sha256 "50154c9d55f5e1e606c2bba4ff00d32f210fc78af97b946c0905a6620bd26a9e"
+      sha256 "63c9ad51836c6abbf1848e7889547ab7a5629cea109242969cd1c4dc8c026d3e"
     end
   end
 
