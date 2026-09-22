@@ -11,7 +11,7 @@ class LilbeeRocm < Formula
   on_linux do
     on_intel do
       url "https://github.com/tobocop2/lilbee/releases/download/v#{version}/lilbee-linux-x86_64-rocm"
-      sha256 "7e444e3cb47d3611c6207e2aa9c746d42df9c73f88de9de83070046f33762b62"
+      sha256 "cf5aea120959b9533258a5dacf21bc5a4668b8ccd5c036412a7d0af29d659748"
     end
   end
 
