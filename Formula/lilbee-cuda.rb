@@ -1,7 +1,7 @@
 class LilbeeCuda < Formula
   desc "Whole local AI stack in one binary: models, cited search, crawler (CUDA build)"
   homepage "https://github.com/tobocop2/lilbee"
-  version "0.6.90b447"
+  version "0.6.90b448"
   license "MIT"
 
   conflicts_with "tobocop2/lilbee/lilbee", because: "both install the lilbee binary"
@@ -9,7 +9,7 @@ class LilbeeCuda < Formula
   on_linux do
     on_intel do
       url "https://github.com/tobocop2/lilbee/releases/download/v#{version}/lilbee-linux-x86_64-cu125"
-      sha256 "9f68c318259db28c0e4f754cfc48b33bf72e3326232c7ad4565c87586107a202"
+      sha256 "1f59ed285cfb2be1d12eef033d78f7d47387426f272698e51bd6c561fd672076"
     end
   end
 
