@@ -10,7 +10,7 @@ class LilbeeCompat < Formula
   on_linux do
     on_intel do
       url "https://github.com/tobocop2/lilbee/releases/download/v#{version}/lilbee-compat-linux-x86_64"
-      sha256 "400be023cc78a44242872f36c9c0994f32683f6a9a4e3034098b963911dcdc7b"
+      sha256 "b61ae6c70626f8c233d80caa0cdc9226e30fc00a8319a2bc824b2e4db403bea6"
     end
   end
 
