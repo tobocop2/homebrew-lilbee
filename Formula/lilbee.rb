@@ -7,19 +7,19 @@ class Lilbee < Formula
   on_macos do
     on_arm do
       url "https://github.com/tobocop2/lilbee/releases/download/v#{version}/lilbee-macos-arm64"
-      sha256 "c2c1241d8f59e01bc104275ecda5a71bedbc97b51331528cfbc8abc37310f745"
+      sha256 "d8f78422a1cdf9dfe682c1a2d6e980b59833dec8de7d9ca68fedda87866b3f62"
     end
 
     on_intel do
       url "https://github.com/tobocop2/lilbee/releases/download/v#{version}/lilbee-macos-x86_64"
-      sha256 "675392913c921efc6ae91fa07c4712fa79534b006acded0abb6107e70a5fa729"
+      sha256 "b129eab753b828c0de6df21b1608141d2b341320dd2d8a3e9a6a5c5ccada09f2"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/tobocop2/lilbee/releases/download/v#{version}/lilbee-linux-x86_64"
-      sha256 "6e0b55bcb04025d97d2043196d2f126a45d57151e4df3d162bc5fde161b4c849"
+      sha256 "ff72ce42c64c8353172a7e4da7465c734d5ea4b2437e719bb9ec3240424468fb"
     end
   end
 
